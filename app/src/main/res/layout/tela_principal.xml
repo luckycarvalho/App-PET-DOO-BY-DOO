@@ -6,38 +6,30 @@
     android:layout_height="match_parent"
     android:backgroundTint="#FDF6FE">
 
-    <!-- LinearLayout principal com a imagem de fundo -->
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="0dp"
+        android:layout_width="411dp"
         android:layout_height="wrap_content"
         android:background="@drawable/login"
         android:orientation="vertical">
 
-        <!-- Imagem principal -->
 
-        <ImageButton
-            android:id="@+id/imageButton2"
+        <Button
+            android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:layout_marginLeft="360dp"
-            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
             android:backgroundTint="#FEBC59"
-            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+            android:text="Minha Conta"
+            android:textColor="#0B0B0B" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="190dp"
             app:srcCompat="@drawable/icone" />
-
-        <!-- Botão de Menu (três pontos) -->
-        <!-- Substitua pelo seu ícone de três pontos -->
-        android:contentDescription="Menu"
-        android:background="?android:attr/selectableItemBackgroundBorderless"
-        app:layout_constraintTop_toTopOf="@id/imageView2"
-        app:layout_constraintEnd_toEndOf="@id/imageView2"/>
 
         <!-- Texto do título -->
         <TextView
